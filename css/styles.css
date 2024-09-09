@@ -1,0 +1,133 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #155869;
+    align-items: center;
+    top: 0;
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    opacity: 0.7;
+}
+
+nav h1 {
+    font-size: 50px;
+    color: white;
+}
+
+nav div a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+nav div a:hover {
+    color: black;
+}
+
+
+.nav-items {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/bg-logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    row-gap: 10px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero p {
+    color: white;
+    width: 70%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.hero button {
+    padding: 30px;
+    font-size: large;
+    background-color: white;
+    border-radius: 5px;
+    width: 10rem;
+}
+
+.hero-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    color: white;
+}
+
+.hero-2 h1 {
+    margin: 30px;
+    color: #125469;
+    font-size: 50px;
+}
+
+.hero2-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    height: 60vh;
+    margin: 10px;
+}
+
+.hero2-items div {
+    height: 95%;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+
+.hero2-items div:hover{
+    opacity: 0.5;
+    color: white;
+}
+
+
+.hero2-items div h2 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero2-items #num1 {
+    background-image: url(../images/frontend.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.hero2-items #num2 {
+    background-image: url(../images/backend.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.hero2-items #num3 {
+    background-image: url(../images/fullstack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
