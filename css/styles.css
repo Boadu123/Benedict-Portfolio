@@ -91,7 +91,7 @@ nav div a:hover {
 .hero-2 {
     display: flex;
     flex-direction: column;
-    background-color: #050A0F;
+    background-color: black;
     align-items: center;
 }
 
@@ -270,4 +270,55 @@ h3 {
     justify-content: center;
     background-color: #024A45;
     color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-image: url(../images/frontend.png);
+    background-size: contain;
+}
+
+.hero4{
+    color: white;
+    font-size: 50px;
+    background-color: transparent;
+}
+
+.hero41 {
+    font-size: xx-large;
+    color: white;
+}
+
+.hero42{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#hero43{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+}
+
+#hero43 input{
+    height: 55px;
+    width: 70%;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+#hero43 button {
+    padding: 20px;
+    background-color: #050A0F;
+    color: white;
+    border-radius: 10px;
 }
