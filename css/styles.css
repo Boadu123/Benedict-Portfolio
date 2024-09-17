@@ -1,8 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
 nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #0C3B40;
+    background-color: #024A45;
     width: 100%;
     top: 0;
     position: fixed;
@@ -73,16 +76,16 @@ nav div a:hover {
 .hero button {
     padding: 30px;
     font-size: large;
-    background-color: #024844;
-    color: white;
+    background-color: white;
+    color: #024844;
     border-radius: 10px;
     width: 15rem;
     font-size: x-large;
 }
 
 .hero button:hover {
-    background-color: white;
-    color: #024844;
+    background-color: #024844;
+    color: white;
 }
 
 .hero-2 {
@@ -117,10 +120,13 @@ nav div a:hover {
 }
 
 .hero2-items div:hover{
-    opacity: 0.4;
+    opacity: 0.5;
     color: white;
 }
 
+.hero2-items div h2:hover {
+    color: #3EF9FF;
+}
 
 .hero2-items div h2 {
     font-size: 50px;
@@ -175,14 +181,15 @@ nav div a:hover {
 
 .hero3 h2 {
     color: white;
-    padding: 20px;
+    padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
 }
 
 .hero3 p {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: larger;
 }
 
 .hero31 {
@@ -192,10 +199,75 @@ nav div a:hover {
     justify-content: center;
     background-color: #0C3B40;
     height: 60%;
-    /* margin: auto; */
     border-radius: 20px;
     border: 5px solid #26444B;
     padding: 20px;
     row-gap: 20px;
 
+}
+
+footer {
+    height: 60vh;
+    background-color: #024A45;
+    display: flex;
+    align-items: center;
+}
+
+.footer1{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40%;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+    font-size: medium;
+    row-gap: 30px;
+    text-align: center;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.footer3 a {
+    color: white;
+}
+
+.footer3 a:hover {
+    color: black;
+}
+
+.footer4 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.footer4 a {
+    color: white;
+}
+
+.footer4 a:hover {
+    color: black;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    background-color: #024A45;
+    color: white;
 }
