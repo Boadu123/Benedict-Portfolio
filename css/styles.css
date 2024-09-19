@@ -203,6 +203,7 @@ nav div a:hover {
   border: 5px solid #26444b;
   padding: 20px;
   row-gap: 20px;
+  width: 60%;
 }
 
 footer {
@@ -274,17 +275,14 @@ h3 {
 section {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   justify-content: center;
   align-items: center;
   row-gap: 20px;
   background-image: url(../images/frontend.png);
-  filter: brightness(50%);
-  z-index: 0;
   background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
 }
 
 .hero4 {
@@ -304,30 +302,9 @@ section {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-}
-
-#hero43 {
-  display: flex;
-  flex-direction: column;
-  row-gap: 5px;
-  width: 100%;
-  align-items: center;
-  position: relative;
-  z-index: 50;
-}
-
-#hero43 input {
-  height: 55px;
-  width: 70%;
-  border-radius: 10px;
-  border: 5px solid black;
-}
-
-#hero43 button {
-  padding: 20px;
-  background-color: #6f883b;
-  color: white;
-  border-radius: 10px;
+  justify-self: center;
+  height: 70vh;
+  width: 60%;
 }
 
 .skills {
@@ -343,4 +320,76 @@ section {
   font-size: xx-large;
   font-weight: bolder;
   color: white;
+}
+
+.hero43 {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 10px;
+  column-gap: 15px;
+  padding: 15px;
+  height: 30%;
+}
+
+.hero43button {
+  background-color: #37441d;
+  width: 40%;
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+}
+
+.history {
+  display: flex;
+  width: 100%;
+  background-color: #024943;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 80px;
+  height: 50vh;
+}
+
+.history1 {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid white;
+  height: 80%;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.history2 {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid white;
+  height: 80%;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+footer {
+  background-color: #024943;
+  height: 60vh;
+  display: flex;
+}
+
+.foot5 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
 }

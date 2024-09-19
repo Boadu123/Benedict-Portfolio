@@ -18,9 +18,6 @@ function animateValue(id, start, end, duration) {
     window.requestAnimationFrame(step);
 }
 
-// window.onload = function() {
-//     animateValue('#skillOne', 0, 60, 5000);
-// };
 
 function startCounterWhenVisible() {
     const target = document.querySelector('#skillOne');
@@ -28,12 +25,11 @@ function startCounterWhenVisible() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                // The element is in view, start or restart the animation
+                
                 animateValue('#skillOne', 0, 60, 5000);
             }
         });
-    }, { threshold: 0.5 }); // Threshold defines how much of the element is visible (50% here)
-    
+    }, { threshold: 0.5 }); 
     observer.observe(target);
 }
 
