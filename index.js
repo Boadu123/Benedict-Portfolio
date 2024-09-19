@@ -22,4 +22,23 @@ function animateValue(id, start, end, duration) {
 //     animateValue('#skillOne', 0, 60, 5000);
 // };
 
+function startCounterWhenVisible() {
+    const target = document.querySelector('#skillOne');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // The element is in view, start or restart the animation
+                animateValue('#skillOne', 0, 60, 5000);
+            }
+        });
+    }, { threshold: 0.5 }); // Threshold defines how much of the element is visible (50% here)
+    
+    observer.observe(target);
+}
+
+window.onload = function() {
+    startCounterWhenVisible();
+};
+
 animateValue(id, start, end, duration)
