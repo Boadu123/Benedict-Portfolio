@@ -1,340 +1,346 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #024A45;
-    width: 100%;
-    top: 0;
-    position: fixed;
-    height: 10%;
-    z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #024a45;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  height: 10%;
+  z-index: 50;
 }
 
 nav h1 {
-    font-size: 50px;
-    color: #101A2F;
-    color: white;
+  font-size: 50px;
+  color: #101a2f;
+  color: white;
 }
 
 nav div a {
-    font-size: 25px;
-    color: white;
+  font-size: 25px;
+  color: white;
 }
 
 nav div a:hover {
-    color: #024943;
-    background-color: white;
-    border-radius: 5px;
-    padding: 5px;
+  color: #024943;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
 }
 
-
 .nav-items {
-    width: 40%;
-    display: flex;
-    justify-content: space-evenly;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .hero {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../images/bg-logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero1 {
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.7;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
 }
 
 .hero h1 {
-    font-size: 60px;
-    color: white;
-    width: 70%;
-    display: flex;
-    justify-content: center;
+  font-size: 60px;
+  color: white;
+  width: 70%;
+  display: flex;
+  justify-content: center;
 }
 
 .hero p {
-    color: white;
-    width: 70%;
-    font-size: x-large;
-    text-align: center;
+  color: white;
+  width: 70%;
+  font-size: x-large;
+  text-align: center;
 }
 
 .hero button {
-    padding: 30px;
-    font-size: large;
-    background-color: white;
-    color: #024844;
-    border-radius: 10px;
-    width: 15rem;
-    font-size: x-large;
-    
+  padding: 30px;
+  font-size: large;
+  background-color: white;
+  color: #024844;
+  border-radius: 10px;
+  width: 15rem;
+  font-size: x-large;
 }
 
 .hero button:hover {
-    background-color: #024844;
-    color: white;
+  background-color: #024844;
+  color: white;
 }
 
 .hero-2 {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
 }
 
 .hero-2 h1 {
-    margin: 30px;
-    color: white;
-    font-size: 50px;
+  margin: 30px;
+  color: white;
+  font-size: 50px;
 }
 
 .hero2-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
-    height: 60vh;
-    margin: 10px;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  height: 60vh;
+  margin: 10px;
+  padding: 10px;
 }
 
 .hero2-items div {
-    height: 95%;
-    margin: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 95%;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero2-items div:hover{
-    opacity: 0.5;
-    color: white;
+.hero2-items div:hover {
+  opacity: 0.5;
+  color: white;
 }
 
 .hero2-items div h2:hover {
-    color: #3EF9FF;
+  color: #3ef9ff;
 }
 
 .hero2-items div h2 {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
 
 .hero2-items #num1 {
-    height: 90%;
-    background-image: url(../images/bg-logo1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-
-.hero2-items #num2 {
-    height: 90%;
-    background-image: url(../images/backend.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-
-.hero2-items #num3 {
-    height: 90%;
-    background-image: url(../images/full-stack.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 90%;
+  background-image: url(../images/bg-logo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.hero3{
-    display: flex;
-    background-color: #050A0F;
-    width: 80%;
-    height: 80vh;
-    margin: auto;
-    column-gap: 20px;
+.hero2-items #num2 {
+  height: 90%;
+  background-image: url(../images/backend.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero2-items #num3 {
+  height: 90%;
+  background-image: url(../images/full-stack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero3 {
+  display: flex;
+  background-color: #050a0f;
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  column-gap: 20px;
 }
 
 .hero3 img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #0C3B40;
-    height: 60%;
-    border-radius: 20px;
-    border: 5px solid #26444B;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c3b40;
+  height: 60%;
+  border-radius: 20px;
+  border: 5px solid #26444b;
+  padding: 20px;
 }
 
 .hero3 h2 {
-    color: white;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
+  color: white;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
 }
 
 .hero3 p {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
 }
 
 .hero31 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #0C3B40;
-    height: 60%;
-    border-radius: 20px;
-    border: 5px solid #26444B;
-    padding: 20px;
-    row-gap: 20px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c3b40;
+  height: 60%;
+  border-radius: 20px;
+  border: 5px solid #26444b;
+  padding: 20px;
+  row-gap: 20px;
 }
 
 footer {
-    height: 60vh;
-    background-color: #024A45;
-    display: flex;
-    align-items: center;
+  height: 60vh;
+  background-color: #024a45;
+  display: flex;
+  align-items: center;
 }
 
-.footer1{
-    display: flex;
-    width: 70%;
-    margin: auto;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 40%;
+.footer1 {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40%;
 }
 
 .footer2 {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    color: white;
-    font-size: medium;
-    row-gap: 30px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: white;
+  font-size: medium;
+  row-gap: 30px;
+  text-align: center;
 }
 
 .footer3 {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    row-gap: 20px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  row-gap: 20px;
+  align-items: center;
 }
 
 .footer3 a {
-    color: white;
+  color: white;
 }
 
 .footer3 a:hover {
-    color: black;
+  color: black;
 }
 
 .footer4 {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    row-gap: 10px;
-    align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  row-gap: 10px;
+  align-items: center;
 }
 
 .footer4 a {
-    color: white;
+  color: white;
 }
 
 .footer4 a:hover {
-    color: black;
+  color: black;
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
-    background-color: #024A45;
-    color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #024a45;
+  color: white;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    row-gap: 20px;
-    background-image: url(../images/frontend.png);
-    background-size: contain;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  background-image: url(../images/frontend.png);
+  filter: brightness(50%);
+  z-index: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
 }
 
-.hero4{
-    color: white;
-    font-size: 50px;
-    background-color: transparent;
+.hero4 {
+  color: white;
+  font-size: 50px;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
 }
 
 .hero41 {
-    font-size: xx-large;
-    color: white;
+  font-size: xx-large;
+  color: white;
 }
 
-.hero42{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
+.hero42 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
 
-#hero43{
-    display: flex;
-    flex-direction: column;
-    row-gap: 5px;
-    width: 100%;
-    align-items: center;
-    padding: 20px;
+#hero43 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  z-index: 50;
 }
 
-#hero43 input{
-    height: 55px;
-    width: 70%;
-    border-radius: 10px;
-    border: 5px solid black;
+#hero43 input {
+  height: 55px;
+  width: 70%;
+  border-radius: 10px;
+  border: 5px solid black;
 }
 
 #hero43 button {
-    padding: 20px;
-    background-color: #6F883B;
-    color: white;
-    border-radius: 10px;
+  padding: 20px;
+  background-color: #6f883b;
+  color: white;
+  border-radius: 10px;
 }
 
 .skills {
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #024A45;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #024a45;
 }
 
 .skills span {
-    font-size: xx-large;
-    font-weight: bolder;
-    color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
 }
