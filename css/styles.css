@@ -393,3 +393,9 @@ footer {
   width: 80%;
   margin: auto;
 }
+
+.JavScript{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
