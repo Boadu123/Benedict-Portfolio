@@ -64,6 +64,7 @@ nav div a:hover {
   width: 70%;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .hero p {
@@ -405,6 +406,7 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
+
   .nav-items {
     display: none;
   }
@@ -448,10 +450,43 @@ footer {
     width: 100%;
   }
   .hero1 h1 {
-    font-size: medium;
+    font-size: x-large;
     width: 100%;
+    text-align: center;
   }
 
+  
+  .hero1 .herobut {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .herobut button {
+    width: 30%;
+    height: 5vh;
+    background-color: #031930;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    margin: 5px;
+  }
+  .herobut button:hover {
+    background-color: white;
+    color: #3C4C4C;
+  }
+
+  .hero3 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  
 }
 
 
@@ -495,6 +530,40 @@ footer {
 
   }
 
-  
+  .hero {
+    width: 100%;
+  }
+  .hero1 h1 {
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+  }
 
+  .hero1 .herobut {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .herobut button {
+    width: 30%;
+    height: 5vh;
+    background-color: #031930;
+    color: white;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+
+
+  .hero3 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
 }
+
