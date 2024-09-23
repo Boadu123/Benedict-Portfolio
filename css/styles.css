@@ -378,7 +378,7 @@ section {
 
 body {
   overflow-x: hidden;
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 
 footer {
@@ -394,8 +394,107 @@ footer {
   margin: auto;
 }
 
-.JavScript{
+.JavScript {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .nav-items {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    overflow-y: hidden;
+    top: 30px;
+  }
+
+  nav #home {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+
+  nav {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .nav-items.show {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3D4C4C;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    left: 0;
+    top: 0;
+
+  }
+
+  .hero {
+    width: 100%;
+  }
+  .hero1 h1 {
+    font-size: medium;
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .nav-items {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    overflow-y: hidden;
+    top: 30px;
+  }
+
+  nav #home {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+
+  nav {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .nav-items.show {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3D4C4C;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    left: 0;
+    top: 0;
+
+  }
+
+  
+
 }
