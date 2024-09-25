@@ -476,8 +476,9 @@ footer {
   }
 
   .hero3 img {
-    height: 30%;
-    border-radius: 10px;
+    width: 70%;
+    height: 100%;
+    border-radius: 150px;
     border: 5px solid #26444b;
   }
 
@@ -486,6 +487,16 @@ footer {
     width: 100%;
     margin-top: 10px;
   }
+
+  .divimg{
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 80%;
+    padding-bottom: 10px;
+  }
+
 
 
 }
@@ -568,14 +579,23 @@ footer {
   }
 
   .hero3 img {
-    height: 30%;
+    width: 50%;
+    height: 100%;
     border-radius: 10px;
     border: 5px solid #26444b;
   }
 
   .hero31 {
-    position: absolute;
     height: 100%;
     width: 100%;
+    margin-top: 10px;
+  }
+
+  .divimg{
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 80%;
   }
 }
