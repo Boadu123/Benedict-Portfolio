@@ -161,28 +161,20 @@ nav div a:hover {
 
 .hero3 {
   display: flex;
-  background-color: #050a0f;
-  width: 80%;
-  height: 80vh;
-  margin: auto;
+  width: 100%;
+  height: 100vh;
   column-gap: 20px;
+  justify-content: center;
 }
 
 .hero3 img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #0c3b40;
-  height: 60%;
+  height: 80%;
   border-radius: 20px;
   border: 5px solid #26444b;
-  padding: 20px;
 }
 
 .hero3 h2 {
   color: white;
-  padding: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
 }
@@ -198,12 +190,10 @@ nav div a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0c3b40;
-  height: 60%;
+  height: 80%;
   border-radius: 20px;
   border: 5px solid #26444b;
-  padding: 20px;
-  row-gap: 20px;
+  row-gap: 10px;
   width: 60%;
 }
 
@@ -406,7 +396,6 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
-
   .nav-items {
     display: none;
   }
@@ -437,13 +426,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #3D4C4C;
+    background-color: #3d4c4c;
     overflow: hidden;
     width: 50%;
     height: 50%;
     left: 0;
     top: 0;
-
   }
 
   .hero {
@@ -455,7 +443,6 @@ footer {
     text-align: center;
   }
 
-  
   .hero1 .herobut {
     display: flex;
     flex-direction: row;
@@ -476,19 +463,32 @@ footer {
   }
   .herobut button:hover {
     background-color: white;
-    color: #3C4C4C;
+    color: #3c4c4c;
   }
 
   .hero3 {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    align-items: center;
+    justify-content: center;
   }
 
-  
-}
+  .hero3 img {
+    height: 30%;
+    border-radius: 10px;
+    border: 5px solid #26444b;
+  }
 
+  .hero31 {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+
+}
 
 @media (min-width: 600px) and (max-width: 1000px) {
   .nav-items {
@@ -521,13 +521,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #3D4C4C;
+    background-color: #3d4c4c;
     overflow: hidden;
     width: 50%;
     height: 50%;
     left: 0;
     top: 0;
-
   }
 
   .hero {
@@ -558,12 +557,25 @@ footer {
     margin: 5px;
   }
 
-
   .hero3 {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c090f;
+  }
+
+  .hero3 img {
+    height: 30%;
+    border-radius: 10px;
+    border: 5px solid #26444b;
+  }
+
+  .hero31 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
   }
 }
-

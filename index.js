@@ -42,11 +42,8 @@ window.onload = function () {
   });
 };
 
-
 function toggleMenu(event) {
-    event.preventDefault();
-    let navItems = document.querySelector(".nav-items");
-    navItems.classList.toggle("show");
-
-    console.log(navItems)
+  event.preventDefault();
+  let navItems = document.querySelector(".nav-items");
+  navItems.classList.toggle("show");
 }
