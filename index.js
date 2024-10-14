@@ -4,6 +4,7 @@ let elements = [
   { id: "#skillThree", start: 0, end: 50, duration: 4000 },
   { id: "#skillFour", start: 0, end: 10, duration: 4000 },
   { id: "#skillFive", start: 0, end: 5, duration: 4000 },
+  { id: "#skillSix", start: 0, end: 60, duration: 4000 },
 ];
 
 function animateValue(id, start, end, duration) {
