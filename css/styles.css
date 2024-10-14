@@ -510,7 +510,6 @@ footer {
     height: 80vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: ;
     grid-row-gap: 20px;
   }
 
@@ -547,6 +546,24 @@ footer {
   #num3 h2{
     font-size: 35px;
   }
+
+  .history {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .history1 {
+    width: 70vw;
+    display: flex;
+  }
+  .history1 h2 h3 p {
+    text-align: center;
+  }
+  .history2 {
+    width: 70vw;
+  }
+  
 }
 
 @media (min-width: 600px) and (max-width: 1000px) {
@@ -653,11 +670,58 @@ footer {
     padding: 0 10px;
     text-align: center;
   }
-  .skills{
+  /* .skills{
     display: grid;
     height: 80vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 20px;
+  } */
+
+  .hero-2 h1 {
+    font-size: 25px;
   }
+
+  #num1{
+    width: 90%;
+    height: 60vh;
+  }
+
+  #num1 h2{
+    font-size: 35px;
+  }
+  #num2{
+    width: 90%;
+    height: 60vh;
+  }
+
+  #num2 h2{
+    font-size: 35px;
+  }
+
+  #num3{
+    width: 90%;
+    height: 60vh;
+  }
+  #num3 h2{
+    font-size: 35px;
+  }
+
+  .history {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .history1 {
+    width: 70vw;
+    display: flex;
+  }
+  .history1 h2 h3 p {
+    text-align: center;
+  }
+  .history2 {
+    width: 70vw;
+  }
+  
 }
